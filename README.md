@@ -56,8 +56,9 @@ To deploy the mysql RDS cluster, do the following:
 
 8.  Clean Up
 
-      Some of the AWS resources created by the Terraform RDS Multi-AZ instance and cluster modules incur costs as long as they are in use. When you no longer need the resources, clean them up by deleting the Multi-AZ cluster with the VPCs as follows. Run the following commands in your terminal window:
-        ```
+      Some of the AWS resources created by the Terraform RDS Multi-AZ instance and cluster modules incur costs as long as they are in use. When you no longer need the resources, clean them up by deleting the Multi-AZ cluster with the VPCs as follows. Run the following commands in your terminal window
+      ```
         cd live/
         terraform destroy --var-file=tfvars/demo.tfvars
-        ```
+      ```
+        
