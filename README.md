@@ -28,7 +28,7 @@ To deploy the mysql RDS cluster, do the following:
 
 5. Change directory to the root repository directory.
 
-   `cd live/`
+   `cd terraform-mysql-rds-cluster/live/`
 
 6. Workflow for new deployment
 
@@ -58,7 +58,7 @@ To deploy the mysql RDS cluster, do the following:
 
       Some of the AWS resources created by the Terraform RDS Multi-AZ instance and cluster modules incur costs as long as they are in use. When you no longer need the resources, clean them up by deleting the Multi-AZ cluster with the VPCs as follows. Run the following commands in your terminal window
       ```
-        cd live/
+        cd terraform-mysql-rds-cluster/live/
         terraform destroy --var-file=tfvars/demo.tfvars
       ```
         
